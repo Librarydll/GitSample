@@ -34,7 +34,9 @@ namespace ProblemsDemo
         {
 
         }
-    }
+
+        public static void New2()
+        {    }
 
  
 }
