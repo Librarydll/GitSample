@@ -18,7 +18,7 @@ namespace ProblemsDemo
             var dict = new Dictionary<char, bool>();
             for (int i = 0; i < str.Length; i++)
             {
-                if (dict.TryGetValue(str[i],out bool a))
+                if (dict.TryGetValue(str[i], out bool a))
                 {
                     dict[str[i]] = false;
                 }
@@ -28,6 +28,12 @@ namespace ProblemsDemo
                 }
             }
 
-            return new string (dict.Where(x=>x.Value).Select(x=>x.Key).ToArray());
+            return new string(dict.Where(x => x.Value).Select(x => x.Key).ToArray());
+        }
+
+        public static void AbobaBoa()
+        {
+
         }
     }
+}
