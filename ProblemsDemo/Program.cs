@@ -30,5 +30,4 @@ namespace ProblemsDemo
 
             return new string (dict.Where(x=>x.Value).Select(x=>x.Key).ToArray());
         }
-    }
-}
+
